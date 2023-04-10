@@ -7,7 +7,8 @@ import Navbar from './Navbar.vue'
 <template>
 	<Navbar></Navbar>
 	<body>
-		<div class="p-5 bg-white rounded">
+		<div class="mt-20 bg-white rounded">
+			<title> Trasnports et hebergement</title>
 			<table>
 				<th>
 				</th>

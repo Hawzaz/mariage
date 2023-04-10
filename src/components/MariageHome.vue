@@ -59,8 +59,6 @@ import Navbar from './Navbar.vue'
 			  </table>
 		</div>
 	</body>
-	
-	
 </template>
 
 <style scoped>
