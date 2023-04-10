@@ -8,23 +8,23 @@ import Navbar from './Navbar.vue'
 	<Navbar></Navbar>
 	<body>
 		<div class="p-5 bg-white rounded">
+			
 			<title>Présentation de l'événement</title>
 			<table>
 				<tr>
-				  <th>Heure</th>
-				  <th>Activité</th>
-				  <th>Lieu</th>
+				  <th>11.11.23</th>
+				  <th>Jour du Mariage</th>
+				  <th>Carrer Sant Joan, s/n, 17491 Peralada, Girona, Espagne</th>
 				</tr>
-				<tr>
-					<td>11 11 2023</td>
-				</tr>
+
 				<tr>
 				  <td>12h</td>
 				  <td>Arrivée des invités</td>
-				  <td class="tooltip">Castell Peralada
+				  <td class="tooltip"> Castell Peralada 
 					<span class="tooltiptext">Parking disponible en entrant dans le parc du château</span>
 					</td>
 				</tr>
+				
 				<tr>
 				  <td>13h</td>
 				  <td>Cérémonie religieuse</td>
@@ -44,6 +44,17 @@ import Navbar from './Navbar.vue'
 				  <td>19h</td>
 				  <td>Soirée dansante</td>
 				  <td>Castell Peralada</td>
+				</tr>
+				<tr>
+					<th>
+						12.11.23
+					</th>
+					<th>
+						Jour du brunch
+					</th>
+					<th>
+						13 carrer Guarrigues, 17480 Mas Busca, Roses, Espagne
+					</th>
 				</tr>
 			  </table>
 		</div>
