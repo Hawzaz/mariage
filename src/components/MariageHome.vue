@@ -1,22 +1,54 @@
 <script setup>
-import { ref } from 'vue'
+import Navbar from './Navbar.vue'
 
-defineProps({
-  msg: String,
-})
 
-const count = ref(0)
 </script>
 
 <template>
-	<div class="p-5 bg-white rounded">
-		<h1 >
-			Mariage de Morgane et Romain <br>
-			11 novembre 2023 <br>
-			Castel Perralda, Espagne
-		</h1>
-		<img src="/src/assets/vista-de-la-fachada-principal.jpg" class="fade-in">
-	</div>
+	<Navbar></Navbar>
+	<body>
+		<div class="p-5 bg-white rounded">
+			<title>Présentation de l'événement</title>
+			<table>
+				<tr>
+				  <th>Heure</th>
+				  <th>Activité</th>
+				  <th>Lieu</th>
+				</tr>
+				<tr>
+					<td>11 11 2023</td>
+				</tr>
+				<tr>
+				  <td>12h</td>
+				  <td>Arrivée des invités</td>
+				  <td class="tooltip">Castell Peralada
+					<span class="tooltiptext">Parking disponible en entrant dans le parc du château</span>
+					</td>
+				</tr>
+				<tr>
+				  <td>13h</td>
+				  <td>Cérémonie religieuse</td>
+				  <td>Iglesia del Carmen, Castell Peralada</td>
+				</tr>
+				<tr>
+				  <td>14h</td>
+				  <td>Vin d'honneur</td>
+				  <td>Castell Peralada</td>
+				</tr>
+				<tr>
+				  <td>16h</td>
+				  <td>Repas</td>
+				  <td>Castell Peralada</td>
+				</tr>
+				<tr>
+				  <td>19h</td>
+				  <td>Soirée dansante</td>
+				  <td>Castell Peralada</td>
+				</tr>
+			  </table>
+		</div>
+	</body>
+	
 	
 </template>
 
