@@ -8,7 +8,7 @@ import Navbar from './Navbar.vue'
 	<Navbar></Navbar>
 	<body>
 		<div class="p-5 bg-white rounded">
-			
+
 			<title>Présentation de l'événement</title>
 			<table>
 				<tr>
