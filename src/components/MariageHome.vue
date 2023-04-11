@@ -12,9 +12,9 @@ import Navbar from './Navbar.vue'
 			<title>Présentation de l'événement</title>
 			<table>
 				<tr>
-				  <th>11.11.23</th>
+				  <th>Samedi 11 novembre 2023</th>
 				  <th>Jour du Mariage</th>
-				  <th>Carrer Sant Joan, s/n, 17491 Peralada, Girona, Espagne</th>
+				  <th>Castel Peralada, Carrer Sant Joan, s/n, 17491 Peralada, Girona, Espagne</th>
 				</tr>
 
 				<tr>
@@ -47,13 +47,13 @@ import Navbar from './Navbar.vue'
 				</tr>
 				<tr>
 					<th>
-						12.11.23
+						Dimanche 12 novembre 2023 - 11h30
 					</th>
 					<th>
 						Jour du brunch
 					</th>
 					<th>
-						13 carrer Guarrigues, 17480 Mas Busca, Roses, Espagne
+						Casa de los Padres, 13 carrer Guarrigues, 17480 Mas Busca, Roses, Espagne
 					</th>
 				</tr>
 			  </table>
